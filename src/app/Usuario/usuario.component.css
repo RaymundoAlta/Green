@@ -1,0 +1,20 @@
+.jumbotron{
+    width: 100%;
+    background:linear-gradient(0deg, green, rgb(104, 255, 51));
+    color: white;
+    font-weight: bolder;
+    padding-top: 15px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.form-design{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.jtitle{
+    font-family: 'Times New Roman', Times, serif;
+    size: 20px;
+    
+}

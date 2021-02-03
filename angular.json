@@ -32,7 +32,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/aloading/loading.css",
+              "node_modules/aloading/loading-btn.css"
             ],
             "scripts": []
           },

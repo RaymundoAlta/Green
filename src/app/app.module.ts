@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule } from "@angular/forms";
 
 import { RouterModule } from '@angular/router';
 
@@ -12,6 +13,7 @@ import { HomeComponent } from "./Home/home.component";
 import { HttpClientModule } from "@angular/common/http";
 import { UsuarioComponent } from './Usuario/usuario.component'
 import { UsuarioService } from './Services/usuario.service';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { UsuarioService } from './Services/usuario.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     RouterModule.forRoot([
       { path:'', component: HomeComponent, pathMatch: 'full'},
       { path:'usuarios', component: UsuarioComponent }
